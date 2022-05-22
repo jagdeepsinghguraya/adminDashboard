@@ -1,0 +1,38 @@
+.DashboardHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.DashboardHeader .right{
+  display: flex;
+  margin-right: 1rem;
+}
+
+.DashboardHeader .right .box{    
+  padding: 10px 15px;
+  border: 1px solid  var( --orange);
+  cursor: pointer;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+}
+.DashboardHeader .right .box:hover{
+  background-color: var(--black);
+  border-color:var(--black);
+  color: #fff;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+li{
+  margin-right: 1rem;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--black);
+}
+ul li a:hover{
+  color: var(--orange);
+}

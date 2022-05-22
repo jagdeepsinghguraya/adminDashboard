@@ -1,0 +1,29 @@
+.SingleCard{
+  margin: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.SingleCard h4{
+  margin: 0;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.value{
+  font-size: 20px;
+}
+
+.right img{
+  border-radius: 50%;
+}
+
+.bottom {
+  display: flex;
+}
+
+.growth{
+  margin-right: 1rem;
+}
